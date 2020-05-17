@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String moduloValidacion(){
-        return Validators.validation();
+
+        return Validators.validation() + Validators.validation2();
     }
 
 
